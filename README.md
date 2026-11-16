@@ -9,6 +9,11 @@ the same certificate as TermuxPP core (`dev.pschmitt.termux`) to write the
 required font or color files. Upstream/F-Droid builds target stock Termux and
 are not interchangeable with this fork.
 
+> **TermuxPP release channel:** New builds are published in the
+> [TermuxPP monorepo](https://github.com/pschmitt/termuxpp/releases/tag/latest).
+> Existing releases here remain available to older clients. See the
+> [self-update guide](https://github.com/pschmitt/termuxpp/blob/main/docs/en/self-update.md).
+
 When a style is selected, the app writes `font.ttf` or `colors.properties` to
 `~/.config/termuxpp` if that directory exists, otherwise to the first existing
 legacy directory, `~/.config/termux` or `~/.termux`. If none exists, it creates
